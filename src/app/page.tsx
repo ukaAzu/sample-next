@@ -16,10 +16,10 @@ export default function Home() {
 
   return (
     <main>
-      <h1 className="text-2xl m-5">Next.js sample</h1>
-      <p className="text-lg m-5">{message}</p>
-      <input type="text" onChange={doChange} value={input} className="p-1 border-solid border-2 border-gray-400" />
-      <button onClick={doClick} className="px-7 py-2 mx-2 bg-blue-800 text-while rounded-lg">Click</button>
+      <h1 className="title">Next.js sample</h1>
+      <p className="msg">{message}</p>
+      <input type="text" onChange={doChange} value={input} className="input" />
+      <button onClick={doClick} className="btn">Click</button>
     </main>
   )
 }
